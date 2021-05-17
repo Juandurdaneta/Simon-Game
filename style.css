@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8aaff5,
+    #1c4dd2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8aaff5,
+    #1c4dd2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 2px 2px 0 black;
+  color: white;
+}
+h1 {
+  padding: 1.5%;
+  font-size: 2rem;
+  text-shadow: 4px 4px 0 black;
+  color: white;
+}
+
+/* Classes */
+
+.buttons-row {
+    padding: 2%;
+}
+
+.btn{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+}
+
+.green{
+    background-color: #7FFF00;
+}
+.red{
+    background-color: #EF0107;
+}
+.yellow{
+    background-color: #FFD700;
+}
+.blue{
+    background-color: #1E90FF;
+}
+
+.animation{
+    opacity: 0.3;
+    box-shadow: 5px 5px 5px  #DBEDF3;
+}
+
+.gameOver{
+  background: crimson;
+}
