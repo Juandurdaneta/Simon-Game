@@ -1,5 +1,5 @@
 # Simon-Game
-Simon game made to practice DOM manipulation using jQuery.
+Simon game made to practice DOM manipulation using jQuery and Bootstrap.
 
 Live deployment: https://juandurdaneta.github.io/Simon-Game/
 
